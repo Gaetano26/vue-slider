@@ -51,7 +51,11 @@ createApp({
         },
         stopAutoPlay () {
             clearInterval(this.myInterval);
+        },
+        choseImg (index) {
+            this.activeIndex = index 
         }
+
     },
     mounted() {
         this.startAutoPlay();
